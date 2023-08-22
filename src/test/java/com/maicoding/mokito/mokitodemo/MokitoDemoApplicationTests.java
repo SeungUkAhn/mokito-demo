@@ -1,4 +1,4 @@
-package com.maicoding.mokitodemo.mokitodemo;
+package com.maicoding.mokito.mokitodemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,8 +1,13 @@
-package com.maicoding.mokitodemo.mokitodemo.business;
+package com.maicoding.mokito.mokitodemo.business;
 
 public class SomeBusinessImpl {
 
     private DataService dataService;
+
+    public SomeBusinessImpl(DataService dataService) {
+        super();
+        this.dataService = dataService;
+    }
 
     public int findTheGreatestFromALlData(){
         int[] data = dataService.retrieveAllData();
